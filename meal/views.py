@@ -55,4 +55,4 @@ meals = [
 
 # Create your views here.
 def Meal(req):
-    return render(req, './meal/index.html', {'meals': meals})
+    return render(req, 'index.html', {'meals': meals})
